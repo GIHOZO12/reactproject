@@ -1,0 +1,39 @@
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('https://www.usnews.com/object/image/00000189-30bd-d6f6-a99b-ffbd1f840000/gettyimages-1478520911.jpg?update-time=1688739913761&size=responsive640');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text{
+    text-align: center;
+    max-width: 800px;
+
+  }
+  .hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+
+  }
+  .hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+  }
+  @media(max-width:840px){
+    .hero h1{
+      font-size: 30px;
+    }
+    .hero p{
+    font-size: 15px;
+    padding: 20px; 
+     }
+  }
