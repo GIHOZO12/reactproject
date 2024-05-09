@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { FaBars, FaGraduationCap, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [sticky, setSticky] = useState(false);
@@ -21,13 +22,37 @@ const Header = () => {
       <FaGraduationCap style={{ fontSize: "5em" }} />
 
       <ul id="menus" className={mobileMenu ? "" : "hide-mobile-menu"}>
-        <li>Home</li>
-        <li>Course</li>
-        <li>About us</li>
-        <li>Testimonial</li>
+        <li>
+          {" "}
+          <Link to="hero-text" smooth={true} offset={0} duration={500}>
+            Home
+          </Link>{" "}
+        </li>
+        <li>
+          <Link to="about" smooth={true} offset={-260} duration={500}>
+            About us
+          </Link>
+        </li>
+        <li>
+          <Link to="program" smooth={true} offset={-150} duration={500}>
+            Course
+          </Link>
+        </li>
+        <li>
+          <Link to="gallery" smooth={true} offset={-260} duration={500}>
+            Campus
+          </Link>
+        </li>
+        <li>
+          <Link to="testimonials" smooth={true} offset={-260} duration={500}>
+            Testimonial
+          </Link>
+        </li>
         <li>
           <button className="btn22" id="btn">
-            Contact us
+            <Link to="contact-col" smooth={true} offset={-260} duration={500}>
+              Contact us
+            </Link>
           </button>
         </li>
       </ul>

@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import { PiPlay } from "react-icons/pi";
 
-const About = () => {
+const About = ({ setPlayState }) => {
   return (
     <div className="about">
       <div className="about-left">
@@ -11,7 +11,12 @@ const About = () => {
           alt=""
           className="about-img"
         />
-        <PiPlay className="play-icon" />
+        <PiPlay
+          className="play-icon"
+          onClick={() => {
+            setPlayState(true);
+          }}
+        />
       </div>
       <div className="about-right">
         <h3>About University</h3>

@@ -20,7 +20,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="Testimonials">
+    <div className="testimonials">
       <img
         src="https://w7.pngwing.com/pngs/551/108/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail.png"
         alt=""
@@ -42,7 +42,7 @@ const Testimonials = () => {
                 <img src={ismail} alt="" />
                 <div>
                   <h3>Ismail G</h3>
-                  <span>Ismailtech,Rwanda</span>
+                  <span>Rwanda</span>
                 </div>
               </div>
               <p style={{ lineHeight: "20px" }}>
@@ -57,12 +57,12 @@ const Testimonials = () => {
             <div className="slide">
               <div className="user-info">
                 <img
-                  src="https://assets.bizclikmedia.net/900/0dfba4c147bb56ce9c71ce4048e660c6:88d904cad5ba4779173ecd4d2ba0bb3a/173211-140807-286.webp"
+                  src="https://cdn.britannica.com/99/236599-050-1199AD2C/Mark-Zuckerberg-2019.jpg"
                   alt=""
                 />
                 <div>
-                  <h3>Ismail G</h3>
-                  <span>Ismailtech,Rwanda</span>
+                  <h3>Zuckerburg</h3>
+                  <span>USA</span>
                 </div>
               </div>
               <p style={{ lineHeight: "20px" }}>
@@ -81,8 +81,8 @@ const Testimonials = () => {
                   alt=""
                 />
                 <div>
-                  <h3>Ismail G</h3>
-                  <span>Ismailtech,Rwanda</span>
+                  <h3> Elon Musk</h3>
+                  <span>USA</span>
                 </div>
               </div>
               <p style={{ lineHeight: "20px" }}>
@@ -97,12 +97,12 @@ const Testimonials = () => {
             <div className="slide">
               <div className="user-info">
                 <img
-                  src="https://assets.bizclikmedia.net/900/0dfba4c147bb56ce9c71ce4048e660c6:88d904cad5ba4779173ecd4d2ba0bb3a/173211-140807-286.webp"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePUXk5kFEd0aMyYgjfab1jbjwuLlRrPbpYxgiTyCttw&s"
                   alt=""
                 />
                 <div>
-                  <h3>Ismail G</h3>
-                  <span>Ismailtech,Rwanda</span>
+                  <h3>Jackma</h3>
+                  <span>China</span>
                 </div>
               </div>
               <p style={{ lineHeight: "20px" }}>

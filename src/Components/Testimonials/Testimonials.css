@@ -1,4 +1,4 @@
-.Testimonials{
+.testimonials{
    margin: 80px auto;
    padding: 0 80px;
    position: relative; 
@@ -64,5 +64,17 @@
 @media(max-width:840px){
     .next-btn, .back-btn{
         transform: translateY(-50%);
+    }
+    .user-info{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+    .user-info h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size: 12px;
     }
 }
